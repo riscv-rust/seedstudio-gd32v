@@ -4,7 +4,7 @@
 
 # `seedstudio-gd32v`
 
-> Board support crate for the the GD32 RISC-V Dev Board board from SeeedStudio
+> Board support crate for the the GD32 RISC-V Dev Board from SeeedStudio
 
 ## [Documentation](https://docs.rs/crate/seedstudio-gd32v)
 
