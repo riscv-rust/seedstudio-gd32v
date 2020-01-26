@@ -1,0 +1,9 @@
+[package]
+name = "seedstudio-gd32v"
+version = "0.0.0"
+authors = ["Vadim Kaushan <admin@disasm.info>"]
+description = "Board support crate for the GD32 RISC-V Dev Board board from SeeedStudio"
+edition = "2018"
+
+[dependencies]
+gd32vf103xx-hal = "0.2.0"
