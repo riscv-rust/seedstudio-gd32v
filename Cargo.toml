@@ -1,6 +1,6 @@
 [package]
 name = "seedstudio-gd32v"
-version = "0.0.0"
+version = "0.1.0"
 authors = ["Vadim Kaushan <admin@disasm.info>"]
 repository = "https://github.com/riscv-rust/seedstudio-gd32v"
 categories = ["embedded", "hardware-support", "no-std"]
