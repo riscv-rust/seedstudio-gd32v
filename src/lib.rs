@@ -1,4 +1,4 @@
-//! Board support crate for the GD32 RISC-V Dev Board board from SeeedStudio
+//! Board support crate for the GD32 RISC-V Dev Board from SeeedStudio
 
 #![no_std]
 
