@@ -25,6 +25,15 @@ optional = true
 [dev-dependencies]
 riscv-rt = "0.6.1"
 panic-halt = "0.2.0"
+embedded-graphics = "0.6.0-alpha.2"
 
 [features]
 lcd = ["ili9341"]
+
+[[example]]
+name = "display"
+required-features = ["lcd"]
+
+[[example]]
+name = "ferris"
+required-features = ["lcd"]
