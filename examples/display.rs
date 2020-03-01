@@ -7,13 +7,12 @@ use riscv_rt::entry;
 use gd32vf103xx_hal::prelude::*;
 use gd32vf103xx_hal::pac;
 use seedstudio_gd32v::lcd_pins;
-use seedstudio_gd32v::lcd::Lcd;
+use seedstudio_gd32v::lcd::{Lcd, ili9341::Orientation};
 use embedded_graphics::prelude::*;
 use embedded_graphics::fonts::{Font12x16, Text};
 use embedded_graphics::pixelcolor::Rgb565;
 use embedded_graphics::primitives::Rectangle;
 use embedded_graphics::style::{PrimitiveStyle, TextStyleBuilder};
-use ili9341::Orientation;
 
 #[entry]
 fn main() -> ! {
