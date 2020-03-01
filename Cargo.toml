@@ -16,16 +16,14 @@ nb = "0.1.2"
 riscv = "0.5.4"
 
 [dependencies.ili9341]
-#version = "0.2.0"
-git = "https://github.com/Disasm/ili9341-rs.git"
-rev = "c51eaa4ffa99659ee5e114aeb3b9e06f789af12d"
+version = "0.3.0-beta.1"
 features = ["graphics"]
 optional = true
 
 [dev-dependencies]
 riscv-rt = "0.6.1"
 panic-halt = "0.2.0"
-embedded-graphics = "0.6.0-alpha.2"
+embedded-graphics = "0.6.0-beta.1"
 
 [features]
 lcd = ["ili9341"]
