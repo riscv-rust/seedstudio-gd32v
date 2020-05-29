@@ -16,14 +16,14 @@ nb = "0.1.2"
 riscv = "0.5.4"
 
 [dependencies.ili9341]
-version = "0.3.0-beta.1"
+version = "0.3.0"
 features = ["graphics"]
 optional = true
 
 [dev-dependencies]
 riscv-rt = "0.6.1"
 panic-halt = "0.2.0"
-embedded-graphics = "0.6.0-beta.1"
+embedded-graphics = "0.6.2"
 
 [features]
 lcd = ["ili9341"]
