@@ -37,6 +37,7 @@ fn main() -> ! {
 
     let style = TextStyleBuilder::new(Font12x16)
         .background_color(Rgb565::GREEN)
+        .text_color(Rgb565::WHITE)
         .build();
     Text::new(" Hello Rust! ", Point::new(40, 35))
         .into_styled(style)
