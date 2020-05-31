@@ -36,6 +36,10 @@ required-features = ["lcd"]
 name = "ferris"
 required-features = ["lcd"]
 
+[[example]]
+name = "touch"
+required-features = ["lcd"]
+
 [package.metadata.docs.rs]
 features = ['lcd']
 rustdoc-args = ["--cfg", "docsrs"]
